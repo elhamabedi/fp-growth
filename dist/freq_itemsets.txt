@@ -1,0 +1,164 @@
+capital-loss <= 900.00
+native-country = United-States
+native-country = United-States, capital-loss <= 900.00
+native-country = United-States, capital-gain <= 2000.00
+native-country = United-States, capital-loss <= 900.00, capital-gain <= 2000.00
+race = White
+race = White, capital-loss <= 900.00
+race = White, native-country = United-States
+race = White, native-country = United-States, capital-loss <= 900.00
+race = White, capital-gain <= 2000.00
+race = White, capital-loss <= 900.00, capital-gain <= 2000.00
+race = White, native-country = United-States, capital-gain <= 2000.00
+race = White, native-country = United-States, capital-loss <= 900.00, capital-gain <= 2000.00
+income <= 50K
+income <= 50K, capital-loss <= 900.00
+income <= 50K, native-country = United-States
+income <= 50K, native-country = United-States, capital-loss <= 900.00
+income <= 50K, native-country = United-States, capital-gain <= 2000.00
+income <= 50K, native-country = United-States, capital-loss <= 900.00, capital-gain <= 2000.00
+income <= 50K, race = White
+income <= 50K, capital-loss <= 900.00, race = White
+income <= 50K, native-country = United-States, race = White
+income <= 50K, capital-loss <= 900.00, native-country = United-States, race = White
+income <= 50K, native-country = United-States, race = White, capital-gain <= 2000.00
+race = White, capital-loss <= 900.00, income <= 50K, native-country = United-States, capital-gain <= 2000.00
+income <= 50K, race = White, capital-gain <= 2000.00
+income <= 50K, capital-loss <= 900.00, race = White, capital-gain <= 2000.00
+income <= 50K, capital-gain <= 2000.00
+income <= 50K, capital-loss <= 900.00, capital-gain <= 2000.00
+sex = Male
+sex = Male, capital-loss <= 900.00
+sex = Male, native-country = United-States
+sex = Male, native-country = United-States, capital-loss <= 900.00
+sex = Male, race = White
+sex = Male, race = White, capital-loss <= 900.00
+sex = Male, race = White, native-country = United-States
+sex = Male, race = White, native-country = United-States, capital-loss <= 900.00
+sex = Male, race = White, capital-gain <= 2000.00
+sex = Male, race = White, capital-loss <= 900.00, capital-gain <= 2000.00
+sex = Male, race = White, native-country = United-States, capital-gain <= 2000.00
+sex = Male, race = White, capital-loss <= 900.00, native-country = United-States, capital-gain <= 2000.00
+sex = Male, income <= 50K
+sex = Male, income <= 50K, capital-loss <= 900.00
+sex = Male, income <= 50K, native-country = United-States
+sex = Male, income <= 50K, native-country = United-States, capital-loss <= 900.00
+sex = Male, income <= 50K, native-country = United-States, capital-gain <= 2000.00
+sex = Male, income <= 50K, race = White
+sex = Male, income <= 50K, capital-gain <= 2000.00
+sex = Male, income <= 50K, capital-loss <= 900.00, capital-gain <= 2000.00
+sex = Male, capital-gain <= 2000.00
+sex = Male, capital-loss <= 900.00, capital-gain <= 2000.00
+sex = Male, native-country = United-States, capital-gain <= 2000.00
+sex = Male, native-country = United-States, capital-loss <= 900.00, capital-gain <= 2000.00
+sex = Male, workclass = Private
+sex = Male, workclass = Private, capital-loss <= 900.00
+sex = Male, workclass = Private, capital-gain <= 2000.00
+sex = Male, workclass = Private, capital-loss <= 900.00, capital-gain <= 2000.00
+sex = Male, workclass = Private, native-country = United-States
+sex = Male, workclass = Private, native-country = United-States, capital-loss <= 900.00
+sex = Male, workclass = Private, native-country = United-States, capital-gain <= 2000.00
+sex = Male, workclass = Private, race = White
+sex = Male, workclass = Private, capital-loss <= 900.00, race = White
+20.60 < hours-per-week <= 40.20
+capital-loss <= 900.00, 20.60 < hours-per-week <= 40.20
+native-country = United-States, 20.60 < hours-per-week <= 40.20
+capital-loss <= 900.00, native-country = United-States, 20.60 < hours-per-week <= 40.20
+native-country = United-States, 20.60 < hours-per-week <= 40.20, capital-gain <= 2000.00
+capital-loss <= 900.00, native-country = United-States, 20.60 < hours-per-week <= 40.20, capital-gain <= 2000.00
+race = White, 20.60 < hours-per-week <= 40.20
+race = White, capital-loss <= 900.00, 20.60 < hours-per-week <= 40.20
+race = White, native-country = United-States, 20.60 < hours-per-week <= 40.20
+race = White, capital-loss <= 900.00, native-country = United-States, 20.60 < hours-per-week <= 40.20
+race = White, native-country = United-States, 20.60 < hours-per-week <= 40.20, capital-gain <= 2000.00
+race = White, capital-loss <= 900.00, native-country = United-States, 20.60 < hours-per-week <= 40.20, capital-gain <= 2000.00
+race = White, 20.60 < hours-per-week <= 40.20, capital-gain <= 2000.00
+race = White, capital-loss <= 900.00, 20.60 < hours-per-week <= 40.20, capital-gain <= 2000.00
+income <= 50K, 20.60 < hours-per-week <= 40.20
+income <= 50K, capital-loss <= 900.00, 20.60 < hours-per-week <= 40.20
+income <= 50K, native-country = United-States, 20.60 < hours-per-week <= 40.20
+income <= 50K, capital-loss <= 900.00, native-country = United-States, 20.60 < hours-per-week <= 40.20
+income <= 50K, native-country = United-States, 20.60 < hours-per-week <= 40.20, capital-gain <= 2000.00
+capital-loss <= 900.00, income <= 50K, native-country = United-States, 20.60 < hours-per-week <= 40.20, capital-gain <= 2000.00
+income <= 50K, 20.60 < hours-per-week <= 40.20, race = White
+income <= 50K, 20.60 < hours-per-week <= 40.20, capital-gain <= 2000.00
+income <= 50K, capital-loss <= 900.00, 20.60 < hours-per-week <= 40.20, capital-gain <= 2000.00
+20.60 < hours-per-week <= 40.20, capital-gain <= 2000.00
+capital-loss <= 900.00, 20.60 < hours-per-week <= 40.20, capital-gain <= 2000.00
+workclass = Private, 20.60 < hours-per-week <= 40.20
+workclass = Private, capital-loss <= 900.00, 20.60 < hours-per-week <= 40.20
+workclass = Private, 20.60 < hours-per-week <= 40.20, capital-gain <= 2000.00
+workclass = Private, capital-loss <= 900.00, 20.60 < hours-per-week <= 40.20, capital-gain <= 2000.00
+workclass = Private, native-country = United-States, 20.60 < hours-per-week <= 40.20
+workclass = Private, capital-loss <= 900.00, native-country = United-States, 20.60 < hours-per-week <= 40.20
+workclass = Private, native-country = United-States, 20.60 < hours-per-week <= 40.20, capital-gain <= 2000.00
+workclass = Private, income <= 50K, 20.60 < hours-per-week <= 40.20
+capital-gain <= 2000.00
+capital-loss <= 900.00, capital-gain <= 2000.00
+marital-status = Married-civ-spouse
+marital-status = Married-civ-spouse, capital-loss <= 900.00
+native-country = United-States, marital-status = Married-civ-spouse
+race = White, marital-status = Married-civ-spouse
+sex = Male, marital-status = Married-civ-spouse
+marital-status = Married-civ-spouse, capital-gain <= 2000.00
+relationship = Husband
+sex = Male, relationship = Husband
+marital-status = Married-civ-spouse, relationship = Husband
+sex = Male, marital-status = Married-civ-spouse, relationship = Husband
+workclass = Private
+workclass = Private, capital-loss <= 900.00
+workclass = Private, capital-gain <= 2000.00
+workclass = Private, capital-loss <= 900.00, capital-gain <= 2000.00
+workclass = Private, native-country = United-States
+workclass = Private, native-country = United-States, capital-loss <= 900.00
+workclass = Private, native-country = United-States, capital-gain <= 2000.00
+workclass = Private, native-country = United-States, capital-loss <= 900.00, capital-gain <= 2000.00
+workclass = Private, race = White
+workclass = Private, capital-loss <= 900.00, race = White
+workclass = Private, native-country = United-States, race = White
+workclass = Private, capital-loss <= 900.00, native-country = United-States, race = White
+workclass = Private, race = White, capital-gain <= 2000.00
+workclass = Private, capital-loss <= 900.00, race = White, capital-gain <= 2000.00
+workclass = Private, native-country = United-States, race = White, capital-gain <= 2000.00
+workclass = Private, race = White, capital-loss <= 900.00, native-country = United-States, capital-gain <= 2000.00
+workclass = Private, income <= 50K
+workclass = Private, income <= 50K, capital-loss <= 900.00
+workclass = Private, income <= 50K, capital-gain <= 2000.00
+workclass = Private, income <= 50K, capital-loss <= 900.00, capital-gain <= 2000.00
+native-country = United-States, workclass = Private, income <= 50K
+native-country = United-States, workclass = Private, income <= 50K, capital-loss <= 900.00
+native-country = United-States, workclass = Private, income <= 50K, capital-gain <= 2000.00
+workclass = Private, capital-loss <= 900.00, income <= 50K, native-country = United-States, capital-gain <= 2000.00
+workclass = Private, income <= 50K, race = White
+workclass = Private, capital-loss <= 900.00, income <= 50K, race = White
+workclass = Private, income <= 50K, race = White, capital-gain <= 2000.00
+workclass = Private, race = White, capital-loss <= 900.00, income <= 50K, capital-gain <= 2000.00
+native-country = United-States, workclass = Private, income <= 50K, race = White
+workclass = Private, race = White, capital-loss <= 900.00, income <= 50K, native-country = United-States
+workclass = Private, race = White, income <= 50K, native-country = United-States, capital-gain <= 2000.00
+workclass = Private, race = White, capital-loss <= 900.00, income <= 50K, native-country = United-States, capital-gain <= 2000.00
+8.50 < education-num <= 10.38
+8.50 < education-num <= 10.38, capital-loss <= 900.00
+8.50 < education-num <= 10.38, capital-gain <= 2000.00
+8.50 < education-num <= 10.38, capital-loss <= 900.00, capital-gain <= 2000.00
+8.50 < education-num <= 10.38, native-country = United-States
+8.50 < education-num <= 10.38, native-country = United-States, capital-loss <= 900.00
+8.50 < education-num <= 10.38, native-country = United-States, capital-gain <= 2000.00
+8.50 < education-num <= 10.38, native-country = United-States, capital-loss <= 900.00, capital-gain <= 2000.00
+race = White, 8.50 < education-num <= 10.38
+race = White, 8.50 < education-num <= 10.38, capital-loss <= 900.00
+race = White, 8.50 < education-num <= 10.38, native-country = United-States
+race = White, 8.50 < education-num <= 10.38, native-country = United-States, capital-loss <= 900.00
+race = White, 8.50 < education-num <= 10.38, capital-gain <= 2000.00
+race = White, 8.50 < education-num <= 10.38, capital-loss <= 900.00, capital-gain <= 2000.00
+race = White, 8.50 < education-num <= 10.38, native-country = United-States, capital-gain <= 2000.00
+income <= 50K, 8.50 < education-num <= 10.38
+income <= 50K, 8.50 < education-num <= 10.38, capital-loss <= 900.00
+income <= 50K, 8.50 < education-num <= 10.38, capital-gain <= 2000.00
+income <= 50K, 8.50 < education-num <= 10.38, capital-loss <= 900.00, capital-gain <= 2000.00
+income <= 50K, 8.50 < education-num <= 10.38, native-country = United-States
+income <= 50K, 8.50 < education-num <= 10.38, native-country = United-States, capital-loss <= 900.00
+income <= 50K, 8.50 < education-num <= 10.38, native-country = United-States, capital-gain <= 2000.00
+workclass = Private, 8.50 < education-num <= 10.38
+workclass = Private, 8.50 < education-num <= 10.38, capital-loss <= 900.00
+workclass = Private, 8.50 < education-num <= 10.38, capital-gain <= 2000.00
