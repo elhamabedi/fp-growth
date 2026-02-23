@@ -31,13 +31,13 @@ Target: Predict whether an individual's income exceeds $50,000/year (used here f
 
 ## Methodology
 
-1. Data Exploration
+### 1. Data Exploration
 + dentified numerical vs. categorical attributes.
 + Analyzed unique value counts per attribute.
 + Detected missing values (encoded as ? in categorical columns).
 + Calculated demographic statistics (e.g., percentage of US natives).
 
-2. Preprocessing
+### 2. Preprocessing
 To prepare the data for FP-Growth, the following transformations were applied:
 + Missing Value Imputation: Missing values in categorical attributes (workclass, occupation, native-country) were filled with the mode of the respective column.
 + Merging Infrequent Categories: Countries appearing fewer than 40 times were merged into a single category labeled 'Others'.
@@ -51,7 +51,7 @@ To prepare the data for FP-Growth, the following transformations were applied:
 + Attribute Removal: The fnlwgt attribute was removed to reduce complexity.
 + Final Feature Count: 120 binary attributes.
 
-3. FP-Growth Implementation
+### 3. FP-Growth Implementation
 The FP-Growth algorithm was implemented from scratch without using external mining libraries (e.g., mlxtend).
 + FP-Tree Construction:
 	1. Scan dataset to find frequent items (min_support_count = 13,000).
