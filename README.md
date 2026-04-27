@@ -26,7 +26,7 @@ Target: Predict whether an individual's income exceeds $50,000/year (used here f
 │   ├── explore.py                # Data exploration script (notebook version provided)
 │   ├── preprocess.py             # Preprocessing script (notebook version provided)
 │   └── association_analysis.py   # FP-Growth implementation (notebook version provided)
-├── README.md
+└── README.md
 ```
 
 ## Methodology
